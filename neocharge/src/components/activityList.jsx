@@ -37,7 +37,7 @@ export function ActivityList() {
 
   return (
     <div className='bg-white p-6 rounded-lg shadow-md border border-gray-200'>
-      <h2 className='text-2xl font-semibold text-gray-800 mb-6'>Registro de Actividades</h2>
+      <h2 className='text-4xl font-semibold text-gray-800 mb-6'>Registro de Actividades</h2>
       
       <div className='bg-gray-50 rounded-md border border-gray-200 overflow-hidden'>
         <div className='max-h-96 overflow-y-auto'>
@@ -54,7 +54,7 @@ export function ActivityList() {
                   : 'hover:bg-gray-100'
               } last:border-b-0`}
             >
-              <span className='text-base text-gray-800'>{item}</span>
+              <span className='text-xl text-gray-800'>{item}</span>
             </div>
           ))}
         </div>

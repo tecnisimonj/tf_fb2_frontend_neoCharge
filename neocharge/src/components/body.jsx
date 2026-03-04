@@ -19,11 +19,11 @@ export function Body() {
         
         {/* First Column: Inputs and Datepicker */}
         <div className='bg-white p-6 rounded-lg shadow-md border border-gray-200'>
-          <h2 className='text-2xl font-semibold text-gray-800 mb-6'>Cargar</h2>
+          <h2 className='text-4xl font-semibold text-gray-800 mb-6'>Cargar</h2>
           
           {/* Pedido Input */}
           <div className='mb-6'>
-            <label htmlFor='pedido' className='block text-base font-medium text-gray-700 mb-3'>
+            <label htmlFor='pedido' className='block text-xl font-medium text-gray-700 mb-3'>
               Pedido
             </label>
             <input
@@ -32,13 +32,13 @@ export function Body() {
               value={pedido}
               onChange={(e) => setPedido(e.target.value)}
               placeholder='Ingrese número de pedido'
-              className='w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all bg-white text-base'
+              className='w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all bg-white text-xl'
             />
           </div>
 
           {/* Lote Input */}
           <div className='mb-6'>
-            <label htmlFor='lote' className='block text-base font-medium text-gray-700 mb-3'>
+            <label htmlFor='lote' className='block text-xl font-medium text-gray-700 mb-3'>
               Lote
             </label>
             <input
@@ -47,13 +47,13 @@ export function Body() {
               value={lote}
               onChange={(e) => setLote(e.target.value)}
               placeholder='Ingrese número de lote'
-              className='w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all bg-white text-base'
+              className='w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all bg-white text-xl'
             />
           </div>
 
           {/* Datepicker */}
           <div className='mb-6'>
-            <label htmlFor='date' className='block text-base font-medium text-gray-700 mb-3'>
+            <label htmlFor='date' className='block text-xl font-medium text-gray-700 mb-3'>
               Fecha
             </label>
             <input
@@ -61,7 +61,7 @@ export function Body() {
               type='date'
               value={date}
               onChange={(e) => setDate(e.target.value)}
-              className='w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all bg-white text-base'
+              className='w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all bg-white text-xl'
             />
           </div>
 

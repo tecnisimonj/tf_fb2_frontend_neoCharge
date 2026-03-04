@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-Fondo-50: #EEEEFF;
+  --color-Fondo-100: #C1C1FF;
+  --color-Fondo-200: #9292FF;
+  --color-Fondo-300: #6363FF;
+  --color-Fondo-400: #3434FF;
+  --color-Fondo-500: #0505FF;
+  --color-Fondo-600: #0000D5;
+  --color-Fondo-700: #0000A6;
+  --color-Fondo-800: #000077;
+  --color-Fondo-900: #000048;
+  --color-Fondo-950: #00001A;
+}
+
+@utility backgroundBlue {
+  background: #00001A;
+}
+
+
+

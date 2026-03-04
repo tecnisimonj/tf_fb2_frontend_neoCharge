@@ -1,0 +1,33 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#222" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+
+  <!-- Base -->
+  <path d="M40 150 L40 110 A25 25 0 0 1 90 110 L90 150 Z" />
+
+  <!-- First joint circle -->
+  <circle cx="65" cy="105" r="15"/>
+
+  <!-- Arm segment 1 -->
+  <line x1="75" y1="95" x2="115" y2="55"/>
+
+  <!-- Second joint circle -->
+  <circle cx="125" cy="40" r="18"/>
+
+  <!-- Arm segment 2 -->
+  <line x1="138" y1="50" x2="160" y2="85"/>
+
+  <!-- Claw -->
+  <line x1="160" y1="85" x2="150" y2="100"/>
+  <line x1="160" y1="85" x2="170" y2="100"/>
+
+  <!-- Conveyor belt -->
+  <rect x="95" y="120" width="90" height="30" rx="15"/>
+
+  <!-- Conveyor wheels -->
+  <circle cx="120" cy="165" r="6"/>
+  <circle cx="160" cy="165" r="6"/>
+
+  <!-- Boxes -->
+  <rect x="105" y="95" width="25" height="25"/>
+  <rect x="140" y="95" width="25" height="25"/>
+
+</svg>
